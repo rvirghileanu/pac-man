@@ -30,13 +30,13 @@ Pentru a compila și rula proiectul pe **Windows** folosind **PowerShell**, urme
 2. Folosiți următoarea comandă pentru a compila proiectul:  
 
 ```powershell  
-g++ src\main.cpp src\Map.cpp src\Player.cpp src\Ghost.cpp src\RandomGhost.cpp src\ChaseGhost.cpp src\utile.cpp `  
->>     -IC:/Libraries/SFML-2.5.1/include `  
->>     -I$PWD/include `  
->>     -I$PWD/src `  
->>     -LC:/Libraries/SFML-2.5.1/lib `  
->>     -lsfml-graphics -lsfml-window -lsfml-system `  
->>     -o main.exe  
+g++ src\main.cpp src\Map.cpp src\Player.cpp src\Ghost.cpp src\RandomGhost.cpp src\ChaseGhost.cpp src\PatrolGhost.cpp src\utile.cpp `
+>>     -IC:/Libraries/SFML-2.5.1/include `
+>>     -I$PWD/include `
+>>     -I$PWD/src `
+>>     -LC:/Libraries/SFML-2.5.1/lib `
+>>     -lsfml-graphics -lsfml-window -lsfml-system `
+>>     -o main.exe
 ```
 După ce proiectul este compilat cu succes, puteți rula jocul folosind comanda: **./main.exe**  
 
